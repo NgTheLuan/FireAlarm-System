@@ -1,0 +1,181 @@
+h1
+{
+    padding-top:0.5em;
+    text-align: center;
+    
+}
+h2
+{
+    color:blue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header {
+    background-color: #e9d8f4;
+    color: #58257b;
+    border: solid 1px blue;
+    text-align: center;
+    padding: 20px;
+}
+header a
+{
+    color:white;
+}
+article
+{
+    border-radius: 30px 30px 30px 30px;
+    /*border: 1px solid blue;*/
+    
+    overflow:hidden;
+}
+article table
+{
+    background-color: darkseagreen;
+    margin-top: 100px;
+    border: 1px solid blue;
+    
+    
+}
+aside
+{
+    width:220px;
+    height:700px;
+    float:right;
+    padding : 1em;
+}
+
+nav ul
+{
+    list-style-type: none;
+    width:200px;
+    float:center;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+}
+nav li
+{
+    color: red;
+}
+nav a
+{
+    text-decoration: none;
+    color :blue;
+    display: block;
+}
+footer
+{
+    
+    margin-top: 700px;
+    padding : 1em;
+    color: black;
+    text-align: center;
+}
+#info
+{
+    border : 2px;
+    height: 400px;
+    width:260px;
+    float: right;
+}
+
+#menuinfo ul
+{
+    width:195px;
+    float:left;
+    list-style-type: none;
+    text-align: left;
+    overflow:hidden;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url(../src/assets/img/background-info.jpg);
+    
+}
+#menuinfo li
+{
+    color: blue;
+    
+}
+#menuinfo a
+{
+    text-decoration: none;
+    color : #fff;
+    display: block;
+    
+}
+
+#menu ul
+{
+    float:right;
+    border-radius: 10px 0px 10px 10px;
+    background: black;
+    list-style-type: none;
+    padding-right: 0em;
+    overflow:hidden;
+    width:100px;
+}
+#menu li
+{
+    color: #e41313;
+    line-height: 50px;
+}
+
+#menu a
+{
+    text-decoration: none;
+    color : blue;
+    display: block;
+}
+#menu a:hover
+{
+    
+    color: #333;
+}
+body
+{
+    font-family: sans-serif;
+    color: #333;
+    padding-top:20px;
+    background-color: rgb(187, 188, 241);
+}
+#mybutton
+{
+    animation: buttonmove 1s ;
+    animation-direction:normal;
+    animation-fill-mode:both;
+    animation-play-state: running;
+    position: relative;
+    
+}
+#mylogin
+{
+    animation: loginmove 1s ;
+    animation-direction:normal;
+    animation-fill-mode:both;
+    animation-play-state: running;
+    position: relative;
+}
+@keyframes buttonmove
+{
+    from{
+        left:-350px;
+        
+    }
+    to{
+        left:150px;
+        
+    }
+}
+@keyframes loginmove
+{
+    from
+    {
+        right:-300px;
+    }
+    to
+    {
+        right:0px
+    }
+}
+
